@@ -1,12 +1,13 @@
 models\Branches.class
 conf\Filters.class
 facade\BankFacadeImpl.class
-dtos\BankDto.class
 models\Bank.class
-dtos\BranchDto.class
 controllers\ApplicationController.class
+conf\Routes.class
+dtos\BranchDtoWithToken.class
+dtos\BankDto.class
+dtos\BranchDto.class
 controllers\ApplicationController$SimplePojo.class
 controllers\BankingController.class
 conf\Module.class
-conf\Routes.class
 facade\BankFacade.class
