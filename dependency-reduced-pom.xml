@@ -3,6 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Banking</groupId>
   <artifactId>fyle</artifactId>
+  <packaging>war</packaging>
   <version>1.0</version>
   <url>http://www.ninjaframework.org</url>
   <build>
