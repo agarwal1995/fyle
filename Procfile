@@ -1,1 +1,1 @@
-web: mvn ninja:run
+java $JAVA_OPTS -jar target/dependency/webapp-runner.jar $WEBAPP_RUNNER_OPTS --port 8080 target/fyle-1.0.war
