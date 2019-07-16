@@ -147,6 +147,10 @@
       <scope>test</scope>
       <exclusions>
         <exclusion>
+          <artifactId>ninja-standalone</artifactId>
+          <groupId>org.ninjaframework</groupId>
+        </exclusion>
+        <exclusion>
           <artifactId>java-hamcrest</artifactId>
           <groupId>org.hamcrest</groupId>
         </exclusion>
@@ -165,6 +169,14 @@
         <exclusion>
           <artifactId>htmlunit-driver</artifactId>
           <groupId>org.seleniumhq.selenium</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>jetty-client</artifactId>
+          <groupId>org.eclipse.jetty</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>websocket-client</artifactId>
+          <groupId>org.eclipse.jetty.websocket</groupId>
         </exclusion>
         <exclusion>
           <artifactId>httpclient</artifactId>
